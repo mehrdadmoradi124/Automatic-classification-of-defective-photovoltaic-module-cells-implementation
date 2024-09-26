@@ -1,7 +1,7 @@
 # Automatic-classification-of-defective-photovoltaic-module-cells-in-electroluminescence-images
 The code for Automatic classification of defective photovoltaic module cells in electroluminescence images paper
 
-For this implementation, we adapted the model described in [Simonyan and Zisserman, 2015] and utilized transfer learning to address the limited dataset size. The VGG-19 architecture, pre-trained on the IMAGENET dataset (1.28 million images, 1000 classes), was fine-tuned using our dataset.
+For this implementation, the VGG-19 architecture, pre-trained on the IMAGENET dataset (1.28 million images, 1000 classes), was fine-tuned using the data in ELPV data set in https://github.com/zae-bayern/elpv-dataset.
 
 Key modifications include replacing the fully connected layers of VGG-19 with a Global Average Pooling (GAP) layer, followed by two fully connected layers with 4096 and 2048 neurons, respectively. This allows the model to handle the solar cell images (300 × 300 × 3) without further downsampling, ensuring compatibility with the original VGG-19 input dimensions (224 × 224 × 3). The final output is a single neuron predicting the defect probability for each cell.
 
