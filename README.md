@@ -15,7 +15,7 @@ Model was trained followed a two-stage fine-tuning process. In the first stage, 
 The model was trained for 100 epochs with 50 completely defective images as test set and others as train and the model MSE for test and train data in each stage is shown below:
 
 
-![FC Onlytrain](https://github.com/user-attachments/assets/5d93423a-998f-456d-aebe-67b3545fd5b1){width=250px}
+![FC Onlytrain](https://github.com/user-attachments/assets/5d93423a-998f-456d-aebe-67b3545fd5b1)
 ![FC Onlytest](https://github.com/user-attachments/assets/b89e303c-cd09-49ea-85e8-da21a45b1676)
 ![All Layerstrain](https://github.com/user-attachments/assets/47d8983e-0b71-49ef-8b2e-93e9678b32b7)
 ![All Layerstest](https://github.com/user-attachments/assets/9f458bcb-1a16-4c1b-8729-ecd98f21d4db)
