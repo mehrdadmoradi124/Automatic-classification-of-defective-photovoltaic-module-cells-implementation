@@ -15,4 +15,5 @@ The model was trained for 100 epochs with 50 completely defective images as test
 The following picture adapted from the paper shows the architecture:
 
 <img width="551" alt="Screenshot 2024-09-26 at 6 31 13 PM" src="https://github.com/user-attachments/assets/65cdf992-a8d2-45ba-b932-7ae51adedc7b">
+
 You can also find the training and testing images in /images folder. These are the data from [Brabec, C., Camus, C., Hauch, J., Doll, B., Berger, S., Gallwitz, F., Maier, A., Deitsch, S., & Buerhop-Lutz, C. (2018). A benchmark for visual identification of defective solar cells in electroluminescence imagery. World Conference on Photovoltaic Energy Conversion, 1287–1289. https://doi.org/10.4229/35theupvsec20182018-5cv.3.15] present in the ELPV repository https://github.com/zae-bayern/elpv-dataset. 
