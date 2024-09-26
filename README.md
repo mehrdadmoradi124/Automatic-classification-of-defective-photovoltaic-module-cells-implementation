@@ -1,4 +1,4 @@
-# Automatic-classification-of-defective-photovoltaic-module-cells-in-electroluminescence-images
+# Automatic-classification-of-defective-photovoltaic-module-cells-in-electroluminescence-images_paper_implementation
 The code for Automatic classification of defective photovoltaic module cells in electroluminescence images paper
 This is the implementation of the deep regression model described in the paper by [Deitsch, S., Christlein, V., Berger, S., Buerhop-Lutz, C., Maier, A., Gallwitz, F., & Riess, C. (2019). Automatic classification of defective photovoltaic module cells in electroluminescence images. Solar Energy, 185, 455–468. https://doi.org/10.1016/j.solener.2019.02.067].
 For this implementation, the VGG-19 architecture, pre-trained on the IMAGENET dataset (1.28 million images, 1000 classes), was fine-tuned using the data in ELPV data set in https://github.com/zae-bayern/elpv-dataset.
