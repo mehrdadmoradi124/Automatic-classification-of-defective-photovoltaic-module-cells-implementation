@@ -1,4 +1,6 @@
 # Automatic-classification-of-defective-photovoltaic-module-cells-in-electroluminescence-images_paper_implementation
+## Use the model
+In model.py you can find the architecture. In augment.py you can find the augmentation module and in train.py you can find the training and change the parameters like epoch number.
 ## Model details
 The code for Automatic classification of defective photovoltaic module cells in electroluminescence images paper
 This is the implementation of the deep regression model described in the paper by [Deitsch, S., Christlein, V., Berger, S., Buerhop-Lutz, C., Maier, A., Gallwitz, F., & Riess, C. (2019). Automatic classification of defective photovoltaic module cells in electroluminescence images. Solar Energy, 185, 455–468. https://doi.org/10.1016/j.solener.2019.02.067].
