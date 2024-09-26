@@ -22,3 +22,5 @@ The model was trained for 100 epochs with 50 completely defective images as test
 
 
 You can also find the training and testing images in /images folder. These are the data from [Brabec, C., Camus, C., Hauch, J., Doll, B., Berger, S., Gallwitz, F., Maier, A., Deitsch, S., & Buerhop-Lutz, C. (2018). A benchmark for visual identification of defective solar cells in electroluminescence imagery. World Conference on Photovoltaic Energy Conversion, 1287–1289. https://doi.org/10.4229/35theupvsec20182018-5cv.3.15] present in the ELPV repository https://github.com/zae-bayern/elpv-dataset. 
+**Model checkpoints
+You can find the first stage 100th epoch and second stage 73th epoch (best performing) in https://drive.google.com/file/d/1PzKajzoahRYVK4tZg5TPSTozHquifkzE/view?usp=sharing.  
